@@ -8,9 +8,6 @@ buildscript {
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
 	}
-	configurations {
-        compile.exclude module: "spring-boot-starter-tomcat"
-    }
 }
 
 apply plugin: 'java'
