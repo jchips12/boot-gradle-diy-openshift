@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class DemoApplication {
 
-    @RequestMapping(value = {"", "/test"})
+    @RequestMapping(value = {"", "/"})
     public String index() {
         return "Running ...";
     }
